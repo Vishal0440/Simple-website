@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+h1 {
+  color: #66BFBF;
+  font-size: 6rem;
+  padding-top: 5.5rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-top: 1rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 4rem;
+}
+
+/* top-container */
+
+.top_container {
+  background-color: #E4F9F5;
+  position: relative;
+}
+
+.top_container p{
+  font-size: 2rem;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 250px;
+  top: 240px;
+}
+.mountain{
+  width: 40%;
+  padding-top: 8.7rem;
+}
+/* top-container end */
+
+/* middle */
+.middle_container{
+  margin: 20px 0;
+}
+
+.profile{
+  height: 50vh;
+}
+
+.profile img{
+  padding-top: 2rem;
+}
+
+.profile p{
+  margin: auto;
+}
+
+/* skill section  */
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto ;
+  text-align: left;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.coffee-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+.btn a{
+  background-color: #40514E;
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+}
+
+/* .bottom  */
+
+.bottom_container a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 10px;
+  color: #40514E;
+}
+.copyright {
+  color: #ffffff;
+  font-size: 1rem;
+  background-color: #11999E;
+  padding: 15px;
+}
+
+/* responsive for mobile  */
+
+@media (max-width:798px) {
+  .top_cloud {
+    right: 150px;
+    top: 50px;
+  }
+  .bottom_cloud {
+    left: 150px;
+    top: 200px;
+  }
+}
+
+@media (max-width:598px) {
+  h1{
+    font-size: 4rem;
+  }
+  .mountain{
+    width: 350px;
+  }
+}
+
+
+@media (max-width:398px) {
+  .bottom_cloud {
+    left: 200px;
+    top: 200px;
+  }
+  .mountain{
+    width: 300px;
+  }
+}
